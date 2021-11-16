@@ -19,7 +19,8 @@ while(!feof($file))
 
     $solve=fopen("ques$ques.txt", 'r');
     $str = fread($solve, filesize("ques$ques.txt"));
-    echo "$str"."<br>";
+    echo "$str<br>";
+    echo "<br>";
     fclose($solve);
     fclose($file);
 ?>
