@@ -3,21 +3,25 @@ $email=$_GET['t1'];
 $psw=$_GET['t2'];
 $flag=0;
 $s=array();
+
 $file = fopen("details.txt", 'r');
+
 while(!feof($file))
   {
   $s=fgets($file);
   $str_arr = array_pad(explode('::', $s),5,null);
+
   if ($str_arr[1]==$psw and $str_arr[2]==$email){
 		echo "Congratulations! You are authorized user"."<br>";
     echo "Your Job Application number is ".$str_arr[4]."<br>";
     echo "<br>";
     $ques=$str_arr[4] % 20 + 1;
+
     $solve=fopen("ques$ques.txt", 'r');
     $str = fread($solve, filesize("ques$ques.txt"));
     echo "$str";
     fclose($solve);
-    
+    fclose($file);
 ?>
 
 <!DOCTYPE html>
@@ -63,7 +67,7 @@ while(!feof($file))
   }//end while
 if ($flag==0)
 echo "Please register yourself before login";
-  fclose($file);
+  
 ?>
 
 
