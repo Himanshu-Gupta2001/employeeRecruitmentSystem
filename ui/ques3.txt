@@ -1,0 +1,9 @@
+Question3 :- 
+Consider a Singly linked list, where each node can store an integer value. Your task is to form a number, whose digits are stored in given singly linked list. The start node contain the first digit and last node contain the last digit
+Method 
+public int getNumber(SinglyLinkedList list){
+}
+For example:
+1	8	 	 6		2	  null
+Then you have to give output
+1862	

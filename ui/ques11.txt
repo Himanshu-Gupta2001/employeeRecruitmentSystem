@@ -1,0 +1,3 @@
+Question11 :- 
+Write a program to search an element with in array using binary search.
+ 

@@ -1,0 +1,2 @@
+Question10 :-
+Write a program to Sort the given array using Selection sort.

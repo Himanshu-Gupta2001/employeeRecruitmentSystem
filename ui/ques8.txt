@@ -1,0 +1,2 @@
+Question8 :- Write a program to Sort the given array using Quick sort.
+ 

@@ -1,0 +1,2 @@
+Question16 :-
+Write a program to implement Stack using linked list.
