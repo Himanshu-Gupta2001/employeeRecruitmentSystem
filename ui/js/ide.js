@@ -18,7 +18,7 @@ function executeCode() {
 
     $.ajax({
 
-        url: "/mini-project/app/compiler.php",
+        url: "/employeeRecruitmentSystem/app/compiler.php",
 
         method: "POST",
 
