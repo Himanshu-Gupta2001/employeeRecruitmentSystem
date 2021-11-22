@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Login</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
 </head>
+
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login{
+    width: 360px;
+    height: 320px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.forget{
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    font-size: x-small;
+    margin-top: 5px;
+    margin-right: 60px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.para1{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -100px;
+}
+
+tr{
+    width: 316px;
+    height: 35px;
+    margin-top: 20px;
+    background-color:grey(36, 36, 30) ;
+    color: blue;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+
+td:hover{
+    background: radial-gradient(pink, rgb(221, 103, 103));
+    
+}
+</style>
+
 <body>
-<form action="validate.php">
+    <img src="logo.jpeg" alt="Logo">
+    <form action="validate.php">
+    <div class="login">
 <center>
+    <h1>Login</h1>
 <table border=5>
 <tr>
 <td> Email
@@ -15,11 +78,14 @@
 <td> Password
 <td> <input type="password" name=t2 placeholder="Enter your Password">
 </tr>
-<tr>
-<td colspan=2 align=center> <input type=submit value=login>
+<tr  >
+<td  colspan=2 align=center> <input type=submit value=login>
 </tr>
 </table>
+<a class="forget" href="#">Forget Password</a>
 </center>
+</div>
 </form>
+<p class="para1">Not have an account? <a href="../index.html"> Sign Up Here</a></p>
 </body>
 </html>

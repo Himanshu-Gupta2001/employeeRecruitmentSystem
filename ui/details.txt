@@ -1,5 +1,5 @@
-Himanshu Gupta::him::himanshu.gupta_cs19@gla.ac.in::2021-11-15::1038::
-Karan Gupta::karan::karan.gupta_cs19@gla.ac.in::2021-11-15::1018::
-Samarth Gupta::sam::samarth.gupta_cs19@gla.ac.in::2021-11-15::1019::
-Yuvraj Gupta::yuvi::yuvraj.rct@gmail.com::2021-11-15::1039::
-Harshi Gupta::harshi::harshi.gupta_cs19@gla.ac.in::2021-11-17::1005::
+Himanshu Gupta::him::himanshu.gupta_cs19@gla.ac.in::2021-11-15::1000::
+Karan Gupta::kar::karan.gupta_cs19@gla.ac.in::2021-11-15::1001::
+Samarth Gupta::sam::samarth.gupta_cs19@gla.ac.in::2021-11-15::1002::
+Yuvraj Gupta::yuvi::yuvraj.gupta_cs19@gla.ac.in::2021-11-15::1003::
+Harshi Gupta::har::harshi.gupta_cs19@gla.ac.in::2021-11-15::1004::
