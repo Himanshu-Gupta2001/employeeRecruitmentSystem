@@ -1,14 +1,107 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>STATUS INFOTAINMENT</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STATUS INFOTAINMENT</title>
 </head>
-<body bgcolor="purple">
-<form action="./ui/store.php">
+    
+<style>
 
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    img{
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    }
+
+    .para1{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -10px;
+    }
+
+    p{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+    }
+    
+    .sign-up{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color:white;
+    border-radius: 3px;
+    }
+
+    h1{
+    text-align: center;
+    padding-top: 15px;
+    color: indianred;
+    }
+
+    form{
+    width: 360px;
+    margin-left: 20px;
+    display: block;
+    margin-top: 12px;
+    font-size: 18px;
+    }
+
+    form input{
+    width: 90%;
+    padding: 7px;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid gray;
+    outline: none;
+    margin: 5px;
+    }
+
+    h4{
+        margin-left: 10px;
+    text-align: center;
+    color: rgb(32, 118, 146);
+    }
+
+    tr{
+    width: 316px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: grey(36, 36, 30);
+    color: blue;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    }
+
+    td:hover{
+    background: radial-gradient(pink, rgb(221, 103, 103));
+    }
+
+
+</style>
+
+<body >
+
+<img src="./ui/logo.jpeg" alt="Logo">
+>
+    <div class="sign-up">
+        <h1>Sign Up</h1>
+    <h4>It's Free and only takes a minute</h4>
+    <form action="./ui/store.php"
 <center>
-<table border=5 bgcolor="yellow" >
+<table border=5>
 
-<tr align='center'>
+<tr style= "margin-top: 0px;" align='center'>
     <th align="center" colspan="2"><h1> STATUS INFOTAINMENT</h1></th>
 </tr>
 
@@ -31,6 +124,7 @@
 <td> DOB
 <td> <input type="date" name=t4 placeholder="Enter Date of Birth" required>
 </tr>
+
 <tr>
 <td colspan=2 align=center> <input type=submit value=Register>
 </tr>
@@ -38,5 +132,12 @@
 </table
 </center>
 </form>
+
+<p> By Clicking the Sign up button, you are agree to our <br /> 
+    <a href="./ui/terms.html">Terms and Condition</a> Please Read it carefully.</p>
+    
+</div>
+
+<p class="para1">Already have an account? <a href="./ui/login.html"> Login Here</a></p>
 </body>
 </html>
