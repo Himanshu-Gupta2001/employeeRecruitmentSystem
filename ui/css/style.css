@@ -33,7 +33,13 @@
     background: #57a958;
     color: white;
     padding: 8px;
-    border: 0;
+    border: none;
+}
+
+.btn:hover {
+    border: 1px solid #57a958;
+    background-color: white;
+    color: #57a958;
 }
 
 .output {

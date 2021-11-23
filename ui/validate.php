@@ -47,7 +47,7 @@ while(!feof($file))
     <div class="editor" id="editor"></div>
 
     <div class="button-container">
-        <button class="btn" onclick="executeCode()"> Run </button>
+        <button class="btn" onclick="executeCode()"> Submit </button>
     </div>
 
     <div class="output"></div>
