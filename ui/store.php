@@ -24,11 +24,12 @@ fclose($file);
 fclose($f);
 
 echo "Your data has been submitted successfully<br>";
+echo "<a href = resume.php> Click here to upload your resume</a>";
 }
 
-else {
-echo "You are already registered<br>";
+else
+{
+    echo "You are already registered<br>";
+    echo "<a href = login.html> Click Here to login</a>";
 }
-
-echo "<a href = login.html> Click Here to login</a>";
 ?>
