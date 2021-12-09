@@ -1,2 +1,2 @@
-Question13 :- 
+Question :- 
 Write a program to implement Binary search tree (BST).

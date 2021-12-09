@@ -1,2 +1,2 @@
-Question15 :- 
+Question :- 
 Write a program to implement Queue using Array.

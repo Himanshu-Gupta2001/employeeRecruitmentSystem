@@ -1,6 +1,4 @@
-
-
-Question2 :-
+Question :-
  Write a program to print all the duplicate elements present in the given array.
 for example 1,8,1,9,2,3,8,6,9,1
 output 1,8,9

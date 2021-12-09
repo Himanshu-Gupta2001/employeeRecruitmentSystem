@@ -1,2 +1,2 @@
-Question14 :- 
+Question :- 
 Write program to implement Queue using linked list

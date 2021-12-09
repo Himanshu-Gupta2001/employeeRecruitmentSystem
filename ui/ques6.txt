@@ -1,2 +1,2 @@
-Question6 :-
+Question :-
 Write a program to implement Stack Using Array.

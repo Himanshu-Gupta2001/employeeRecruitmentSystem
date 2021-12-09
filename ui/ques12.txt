@@ -1,2 +1,2 @@
-Question12 :-
+Question :-
 Write a program to search an element with in linked list using linear search.

@@ -1,2 +1,2 @@
-Question5 :- 
+Question :- 
 Write a program to implement circular linked list.
