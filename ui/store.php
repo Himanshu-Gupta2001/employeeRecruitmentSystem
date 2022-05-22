@@ -1,8 +1,8 @@
 <?php
-$name=$_GET['t1'];
-$pass=$_GET['t2'];
-$email=$_GET['t3'];
-$language=$_GET['t4'];
+$name=$_POST['t1'];
+$pass=$_POST['t2'];
+$email=$_POST['t3'];
+$language=$_POST['t4'];
 
 $file = fopen("details.txt", 'a+');
 $s=fread($file, filesize("details.txt"));
